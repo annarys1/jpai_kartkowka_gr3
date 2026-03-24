@@ -1,0 +1,24 @@
+   1  git clone https://github.com/annarys1/jpai_kartkowka_gr3.git
+    2  ls
+    3  nano docker-lab
+    4  nano jpai_kartkowka_gr3
+    5  mv jpai_kartkowka_gr3 Dockerfile
+    6  ls
+    7  docker build -t obraz:v5
+    8  docker build -t obraz: v5
+    9  docker -d -p 4123:3000 kontener obraz: v5
+   10  docker run
+   11  docker -d -p 4123 :3000  --name kontener obraz: v5
+   12  docker --help
+   13  docker -p 4123 :3000  --name kontener obraz: v5
+   14  docker run -d -p 4123 : 3000  --name kontener obraz:v5
+   15  docker run -d -p 4123:3000  --name kontener obraz:v5
+   16  docker run -d -p 4123:3000  --name kontener obraz: v5
+   17  docker rm kontener
+   18  docker run -d -p 4123:3000  --name kontener obraz: v5
+   19  docker build -t obraz:v5
+   20  docker build -t obraz: v5.
+   21  docker build -t obraz:v5.
+   22  docker build -t obraz:v5 .
+   23  docker run -d -p 4123:3000  --name kontener obraz: v5
+   24  history | tee docker.log
